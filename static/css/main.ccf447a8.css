@@ -2,7 +2,7 @@
 @font-face {
   font-family: GuDianMingChaoTi;
   font-weight: bold;
-  src: url(/static/media/GuDianMingChaoTi.0715b8ad2570a546f0dd.ttf);
+  src: url(https://cdn.jsdelivr.net/gh/senjyouhara/blog-page/static/media/GuDianMingChaoTi.0715b8ad2570a546f0dd.ttf);
 }
 
 /*
@@ -905,7 +905,7 @@ body {
   background-size: cover;
   background-position: center;
   background-color: var(--black);
-  background-image: url(/static/media/background.ef472d798843fcea2486.jpg);
+  background-image: url(https://cdn.jsdelivr.net/gh/senjyouhara/blog-page/static/media/background.ef472d798843fcea2486.jpg);
 }
 
 @media (max-width: 1024px) {
@@ -2766,8 +2766,8 @@ blockquote::before, blockquote::after {
 blockquote::before {
   top: 0.5rem;
   left: 0.25rem;
-  -webkit-mask: url(/static/media/quote-left.f4adfc9482e099389964.svg) no-repeat 100% 100%;
-          mask: url(/static/media/quote-left.f4adfc9482e099389964.svg) no-repeat 100% 100%;
+  -webkit-mask: url(https://cdn.jsdelivr.net/gh/senjyouhara/blog-page/static/media/quote-left.f4adfc9482e099389964.svg) no-repeat 100% 100%;
+          mask: url(https://cdn.jsdelivr.net/gh/senjyouhara/blog-page/static/media/quote-left.f4adfc9482e099389964.svg) no-repeat 100% 100%;
   -webkit-mask-size: cover;
           mask-size: cover
 }
@@ -2775,8 +2775,8 @@ blockquote::before {
 blockquote::after {
   bottom: 0.5rem;
   right: 0.25rem;
-  -webkit-mask: url(/static/media/quote-right.913ac9a419e700cd1f77.svg) no-repeat 100% 100%;
-          mask: url(/static/media/quote-right.913ac9a419e700cd1f77.svg) no-repeat 100% 100%;
+  -webkit-mask: url(https://cdn.jsdelivr.net/gh/senjyouhara/blog-page/static/media/quote-right.913ac9a419e700cd1f77.svg) no-repeat 100% 100%;
+          mask: url(https://cdn.jsdelivr.net/gh/senjyouhara/blog-page/static/media/quote-right.913ac9a419e700cd1f77.svg) no-repeat 100% 100%;
   -webkit-mask-size: cover;
           mask-size: cover
 }
