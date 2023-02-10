@@ -4200,7 +4200,15 @@ ol {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   width: 200px;
+  height: calc(100vh - 180px);
+  overflow: hidden;
+}
 
+.Post_anchorWrap__CfKIy {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all .3s ease;
 }
 
 .Post_anchorLine__2IRHu {
